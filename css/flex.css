@@ -1,0 +1,66 @@
+*
+{
+    margin: 0;
+    font-family: tahoma;
+}
+nav
+{
+    background-color:#f7f7f7;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    
+}
+nav ul
+{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 0;
+    
+    
+}
+nav a
+{
+    color: dimgray;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: block;
+    padding: 10px;
+    text-align: center;
+    min-width: 70px;
+   
+
+    
+}
+nav a:hover
+{
+    background-color: #fff;
+    display: block;
+
+}
+a.fb
+{
+    background: url(img/fb.jpg) no-repeat center;
+    background-size: 80%;
+}
+@media screen and (min-width : 768px)
+{
+    nav ul
+    {
+        display: flex;
+        justify-content: space-between;
+            
+    }
+    nav li
+    {
+       flex: 1 1 0;
+        flex-basis: 100px
+    }
+}
+.container
+{
+    background-color: red;
+    height: 100%;
+    display: flex;
+}
